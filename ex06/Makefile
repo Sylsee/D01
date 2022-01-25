@@ -6,17 +6,17 @@
 #    By: spoliart <spoliart@42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/24 14:54:10 by spoliart          #+#    #+#              #
-#    Updated: 2022/01/25 14:18:25 by spoliart         ###   ########.fr        #
+#    Updated: 2022/01/25 22:11:13 by spoliart         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME	=	test
+NAME	=	karenFilter
 
-CC		=	clang++
+CC		=	c++
 CFLAGS	=	-Wall -Wextra -Werror -std=c++98
 
-SRCS	=	tests.cpp \
-			Account.cpp
+SRCS	=	main.cpp \
+			Karen.cpp
 OBJS	=	$(SRCS:.cpp=.o)
 
 all:	$(NAME)
