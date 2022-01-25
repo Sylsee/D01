@@ -6,7 +6,7 @@
 #    By: spoliart <spoliart@42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/24 14:54:10 by spoliart          #+#    #+#              #
-#    Updated: 2022/01/25 17:40:37 by spoliart         ###   ########.fr        #
+#    Updated: 2022/01/25 19:53:55 by spoliart         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,9 +15,7 @@ NAME	=	test
 CC		=	c++
 CFLAGS	=	-Wall -Wextra -Werror -std=c++98
 
-SRCS	=	main.cpp \
-			Zombie.cpp \
-			ZombieHorde.cpp
+SRCS	=	main.cpp
 OBJS	=	$(SRCS:.cpp=.o)
 
 all:	$(NAME)
