@@ -6,7 +6,7 @@
 /*   By: spoliart <spoliart@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/25 17:30:07 by spoliart          #+#    #+#             */
-/*   Updated: 2022/01/25 17:51:03 by spoliart         ###   ########.fr       */
+/*   Updated: 2022/01/25 18:51:01 by spoliart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	main( void )
 {
-	int		n = 100;
+	int		n = 10;
 	Zombie*	jean = zombieHorde(n, "Foo");
 
 	for (int i = 0; i < n; i++)
