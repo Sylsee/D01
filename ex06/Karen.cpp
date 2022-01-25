@@ -6,7 +6,7 @@
 /*   By: spoliart <spoliart@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/25 21:27:13 by spoliart          #+#    #+#             */
-/*   Updated: 2022/01/25 22:42:46 by spoliart         ###   ########.fr       */
+/*   Updated: 2022/01/25 22:46:08 by spoliart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ Karen::~Karen( void )
 	return ;
 }
 
-int	getLevel( std::string level )
+int	Karen::getLevel( std::string level )
 {
 	std::string	levels[4] = {
 		"DEBUG",

@@ -6,7 +6,7 @@
 /*   By: spoliart <spoliart@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/25 21:19:24 by spoliart          #+#    #+#             */
-/*   Updated: 2022/01/25 22:17:04 by spoliart         ###   ########.fr       */
+/*   Updated: 2022/01/25 22:46:37 by spoliart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,8 @@ public:
 	void	filter( std::string level );
 
 private:
+
+	int		getLevel( std::string level );
 
 	void	debug( void );
 	void	info( void );
