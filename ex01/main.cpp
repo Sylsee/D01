@@ -15,7 +15,7 @@
 int	main( void )
 {
 	int		n = 10;
-	Zombie*	jean = zombieHorde(n, "Foo");
+	Zombie*	jean = zombieHorde(n, "Jean");
 
 	for (int i = 0; i < n; i++)
 		jean->announce();
