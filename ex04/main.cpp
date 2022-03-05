@@ -47,8 +47,10 @@ int	main(int argc, char **argv)
 		}
 		file.close();
 	}
-	else
+	else {
 		std::cout << "Error: canno't open input file" << std::endl;
+		return 1;
+	}
 
 	file.open(output.c_str(), std::fstream::out);
 	if (file.is_open()) {

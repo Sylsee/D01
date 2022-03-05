@@ -34,6 +34,4 @@ void	HumanB::attack( void )
 			<< this->_weapon->getType() << std::endl;
 	else
 		std::cout << this->_name << " has no weapon" << std::endl;
-
-	return ;
 }
